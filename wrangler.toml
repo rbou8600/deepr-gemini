@@ -1,0 +1,8 @@
+name = "deepr-gemini-proxy"
+main = "src/index.js"
+compatibility_date = "2026-06-27"
+
+# ⚠️ Ne mets JAMAIS la clé API ici (ce fichier est versionné sur GitHub).
+# La clé GEMINI_API_KEY se configure comme "secret" dans le dashboard
+# Cloudflare (Settings → Variables and Secrets) ou via :
+#   npx wrangler secret put GEMINI_API_KEY
